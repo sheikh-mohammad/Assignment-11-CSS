@@ -18,6 +18,11 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+html, body {
+    min-height: 100%;
+    overflow-y: auto;
+}
+
 .top-nav {
     height: 100px;
     display: flex;
@@ -90,7 +95,7 @@ nav {
 }
 
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(assets/imgs/logos/hero.png);
     background-size: cover;
     background-position: center;
@@ -1011,7 +1016,7 @@ img {
         display: none;
     }
     .hero {
-        height: 65vh;
+        min-height: 65vh;
         padding: 0 16px;
     }
 
